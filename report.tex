@@ -14,7 +14,6 @@
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 \usepackage[nottoc,notlof,notlot]{tocbibind} 
-\renewcommand\bibname{References}
 
 % Link color setup
 \hypersetup{
@@ -29,7 +28,7 @@
 \fancyhead{}
 \fancyfoot{}
 \fancyhead[L]{Vi xử lý}
-\fancyfoot[L]{Tạ Quang Tùng - 20154280}
+\fancyfoot[L]{Tạ Quang Tùng - KSTN-CNTT-K60 - MSSV: 20154280}
 \fancyfoot[R]{\thepage}
 \renewcommand{\headrulewidth}{1pt}
 \renewcommand{\footrulewidth}{1pt}
@@ -65,5 +64,16 @@
 \pagenumbering{arabic}
 \newpage
 \setcounter{page}{1}
+
+\section{Giới thiệu về vi điều khiển 89S52} 
+\subfile{sections/introduction-89s52.tex}
+
+\newpage
+\section{Lập trình ngắt trên 8051} 
+\subfile{sections/interrupt-8051.tex}
+
+\newpage 
+\section{Bài toán mạch tưới cây báo khô hạn}
+\subfile{sections/problem.tex}
 
 \end{document}
